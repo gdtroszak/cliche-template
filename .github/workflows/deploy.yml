@@ -22,10 +22,10 @@ jobs:
       - name: build site and upload artifact
         uses: gdtroszak/cliche-action@v1
         with:
-          # So we can serve at a non-custom GH pages domain.
-          output: _site/cliche-template
           # Add your domain here if you'd like to generate a sitemap.
           # domain: https://www.your.domain
+          # So we can serve at a path on the GH pages domain.
+          base-url: cliche-template
       - name: setup pages
         uses: actions/configure-pages@v5
       - name: deploy to gh pages
