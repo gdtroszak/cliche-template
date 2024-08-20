@@ -5,7 +5,7 @@ meta_description: deploying a cliche site to github pages
 
 # deploying to github pages
 
-## GitHub action
+## GitHub Action
 
 If you'd like to automate the generation and deployment of your site using GitHub Actions, you can use
 the [cliche-action](https://github.com/gdtroszak/cliche-action). This action runs cliche and creates an
