@@ -45,10 +45,12 @@ jobs:
           artifact_name: cliche-site
 ```
 
-## GitHub pages settings
+## GitHub Pages settings
 
-Make sure the settings for your site repository are the same as in the
-screenshot below. If you're using a custom domain, make sure to replace that
-with your own.
+If you're going to deploy to GitHub Pages, ensure the settings in your site
+repository look like those in the screenshot below.
+
+1. Make sure "Source" is set to "GitHub Actions".
+2. If you're using a custom domain, enter that as well. 
 
 ![GitHub Pages settings](./static/github-pages-settings.png "GitHub Pages settings")
