@@ -51,5 +51,4 @@ Make sure the settings for your site repository are the same as in the
 screenshot below. If you're using a custom domain, make sure to replace that
 with your own.
 
-![GitHub Pages settings](/static/github-pages-settings.png "GitHub Pages settings")
-
+![GitHub Pages settings](./static/github-pages-settings.png "GitHub Pages settings")
